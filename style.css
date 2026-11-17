@@ -6,17 +6,22 @@ body {
 main {
   max-width: 600px;
   margin: 60px auto;
-  background:#fff;
+  background:#f9f2f2;
   padding:32px;
   border-radius:8px;
 }
+
 h1 {
   color:#04AA6D;
   margin-top:0;
 }
+
+/* MARK --> highlights parts of a text */
 mark { 
   background:#fffd91;
 }
+
+/* BUTTONS */
 button { 
   background:#04AA6D; 
   color:#fff; 
@@ -30,6 +35,27 @@ button:hover {
 }
 
 
+/* FLEXBOX CONTAINERS */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container1 {
+  padding: 2px 16px;
+}
+
+.container {
+  display: flex;
+  border: black 10px; 
+}
+
+/* NAVIGATION BAR */
 .navbar {
     display: flex;
     justify-content: space-between;
